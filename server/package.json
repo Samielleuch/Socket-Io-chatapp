@@ -1,0 +1,29 @@
+{
+  "name": "socket-io-typescript-server",
+  "version": "1.0.0",
+  "description": "Chat App server with socket.io and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "socket.io",
+    "node.js",
+    "Typescript",
+    "server"
+  ],
+  "author": "Mingyang Zheng",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/socket.io": "^1.4.36",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "natives": "^1.1.6",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^2.9.2"
+  }
+}
